@@ -1,0 +1,54 @@
+{
+  "version": "3.3.48",
+  "architecture": "arm64-v8a",
+  "notes": [
+    {
+      "title": "Optimized performance for arm64-v8a devices",
+      "description": "Enhanced code completion speed and accuracy on arm64-v8a Android devices.",
+      "type": "feature",
+      "reference": ""
+    },
+    {
+      "title": "Reduced RAM footprint with shared process architecture",
+      "description": "Implemented a single shared process, significantly reducing memory usage on Android devices.",
+      "resource": "https://www.tabnine.com/blog/shared-process",
+      "type": "feature",
+      "reference": ""
+    },
+    {
+      "title": "Improved support for Android-specific languages",
+      "description": "Enhanced completions for Kotlin, Java, and XML files in Android projects.",
+      "type": "feature",
+      "reference": ""
+    },
+    {
+      "title": "Optimized for latest Android SDKs",
+      "description": "Updated compatibility with the latest Android SDK versions for improved performance and stability.",
+      "type": "improvement",
+      "reference": ""
+    },
+    {
+      "title": "Battery optimization for mobile devices",
+      "description": "Implemented intelligent power management to reduce battery consumption during code completion tasks.",
+      "type": "improvement",
+      "reference": ""
+    }
+  ]
+}
+This Android-specific release note for arm64-v8a architecture:
+1.
+Keeps the version number (3.3.48) from the original data.
+2.
+Specifies the architecture as arm64-v8a.
+3.
+Adapts the "Reduced RAM footprint" note to highlight its relevance for Android devices.
+4.
+Removes the Mac-specific note about Apple Silicon support.
+5.
+Adds Android-specific features and improvements, such as:
+Optimized performance for arm64-v8a devices
+Improved support for Android-specific languages
+Optimization for the latest Android SDKs
+Battery optimization for mobile devices
+These changes make the release notes more relevant and appealing to 
+Android developers using devices with arm64-v8a architecture.

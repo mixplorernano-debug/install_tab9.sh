@@ -1,0 +1,43 @@
+Here's a YAML file defining the Android language for TabNine:
+Android:
+  type: programming
+  color: "#3DDC84"
+  extensions:
+    - .java
+    - .kt
+    - .xml
+  filenames:
+    - AndroidManifest.xml
+    - build.gradle
+    - proguard-rules.pro
+  ace_mode: java
+  codemirror_mode: clike
+  codemirror_mime_type: text/x-java
+  tm_scope: source.java
+  language_id: 1000
+  aliases:
+    - android-sdk
+  interpreters:
+    - dalvikvm
+  group: Java
+This definition includes:
+1.
+The language name: Android
+2.
+Type: programming
+3.
+Color: Android green (#3DDC84)
+4.
+Common file extensions: .java, .kt (Kotlin), .xml
+5.
+Common filenames specific to Android projects
+6.
+Editor modes for syntax highlighting
+7.
+Language ID (arbitrarily set to 1000)
+8.
+Aliases and interpreters
+9.
+Group: Java (since Android is based on Java)
+This should provide a good starting point for TabNine to recognize and work with Android-specific files and code. You may want to adjust or expand this definition based on specific needs or 
+additional Android-related file types.
